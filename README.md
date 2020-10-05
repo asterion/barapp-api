@@ -44,6 +44,14 @@ npm run test
 npm run dev
 ```
 
+### Cargar seed
+
+En ambiente linux los bares se pueden cargar con CURL
+
+```
+curl -X POST http://localhost:5000/api/v1/seed
+```
+
 ## Requisitos
 
 * mongodb server
